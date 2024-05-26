@@ -1,0 +1,109 @@
+.header {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.body {
+  background-color: #f4f5e2;
+  font-family: Arial, sans-serif;
+}
+
+p.alert {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
